@@ -1,0 +1,453 @@
+.white_wave{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: -8px;
+    right: 0;
+    z-index: 10;
+    height: 80px;
+    background-image: url(../img/diagrii_wave.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.bloc-fill-screen{
+    height: 100vh;
+}
+
+.navigator{
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 80px;
+    z-index: 12;
+    box-shadow: 0 4px 4px rgba(38, 68, 51, 0.12);
+}
+
+.navigator .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn_w_icon{
+    background-color: #fff;
+    color: #292e38;
+    border-radius: 2px;
+}
+
+.icon-spacer{
+    margin-right: 6px;
+}
+
+.product_icon{
+    width: 256px;
+    height: 50px;
+    margin: 15px 0;
+    background-image: url(../img/main_logo_fullcolor.svg);
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.product_title{
+    display: inline-block;
+    font-size: 32px;
+    vertical-align: middle;
+    color: #2c754c;
+    font-weight: 800;
+    font-family: Lato;
+    margin-left: 2vw;
+}
+
+.product_contact{
+    display: inline-block;
+    float: right;
+    height: 60px;
+    vertical-align: middle;
+    font-size: 18px;
+    margin-top: 26px;
+    opacity: 0.75;
+}
+
+.product_contact:HOVER{
+    opacity: 1;
+}
+
+a{
+    color: #2C7453;
+}
+
+a:HOVER{
+    color: #144027;
+}
+
+.light{
+    font-weight: 400;
+}
+
+.bigger{
+    font-size: 38px;
+}
+
+.margin_top{
+    margin-top: 4vh;
+}
+
+.margin_top--small{
+    margin-top: 6vh;
+}
+
+.margin_btm{
+    margin-bottom: 10vh;
+}
+
+.margin_btm--small{
+    margin-bottom: 6vh;
+}
+
+.divider{
+    width: 40px;
+    width: 4vw;
+    height: 5px;
+    background-color:  #ea963c;
+    margin: 24px 0;
+    border-radius: 2px;
+}
+
+.divider.blank{
+    background-color: #fff;
+}
+
+.main_logo_umbrella{
+    padding: 80px 0;
+    padding: 10vh 0;
+    background-color: #2E6A4D;
+}
+
+.main_logo_knockout{
+    height: 80px;
+    height: 8vh;
+    width: 40vw;
+    margin: auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/main_logo_knockout.svg);
+}
+
+/* MODIFY */
+
+.hero-text-vc{
+    margin-top: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.29);
+}
+
+.mount-italy-hero-text-sub-s{
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.29);
+}
+
+.mg-lg {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p.mg-lg{
+    font-size: 18px;
+}
+
+.feature-list .divider{
+    margin: auto;
+    background-color: rgba(255,255,255,0.5);
+}
+
+h2.text-center{
+    border-left-width: 0;
+}
+
+.bloc_w_quote .divider{
+    margin: 26px auto !important;
+}
+
+.bgc-dark-spring-green .divider{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.bgc-carrot-orange .divider{
+    background-color: #f9ce96;
+    margin: 16px 0;
+}
+
+.tc-charcoal .divider{
+    background-color: #858a94;
+}
+
+.post_subtitle{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.icon-round{
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    border-color: rgba(255,255,255,0.5);
+    padding: 0;
+    display: table;
+}
+
+.icon-round .fa{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 32px;
+}
+
+.bgc-raw-umber{
+    text-align: center;
+}
+
+.bgc-raw-umber .a-block{
+    text-align: center;
+}
+
+
+.main_phone{
+    max-height: 66vh;
+}
+
+.bg_0{
+    background-image:url("../img/diagrii_header_cows_7.jpg");
+}
+.bg_1{
+    background-image:url("../img/diagrii_header_cows_6.jpg");
+}
+.bg_2{
+    background-image:url("../img/diagrii_header_cows_4.png");
+}
+.bg_3{
+    background-image:url("../img/diagrii_header_cows_5.png");
+}
+.bg_4{
+    background-image:url("../img/diagrii_header_cows_2.png");
+}
+
+.bgc-dark-spring-green2{
+    background-color: #354F66;/*  #2A6A4D;*/
+}
+
+.diagrii_text{
+    /*background-color: rgba(0,0,0,0.2);
+    padding: 15vh 24vw 20vw;*/
+    padding: 14vh 8% 0;
+    text-align: center;
+    height: 20vh;
+    z-index: 1;
+}
+
+.diagrii_cover_img{
+    height: 54vh;
+    width: 80vw;
+    position: absolute;
+    bottom: 0;
+    left: 10vw;
+    background-image: url("../img/diagrii-desktop-bigger.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.geofences-bg{
+    background-image: url("../img/geofences-bg.svg");
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.floating_laptop{
+    position: absolute;
+    height: 512px;
+    bottom: 0;
+    left: 3%;
+}
+
+.block_white{
+    background-color: #F2F2F2;
+}
+
+.float_block{
+    background-color: #fff;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.float_block h3{
+    color: #365067;
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.float_block h4{
+    font-size: 18px;
+    color: rgba(0,0,0,0.5);
+}
+
+
+@media only screen and (min-width: 990px) {
+    .desktop_margin_top{
+        margin-top: 10vh;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .center_on_small, .mg-lg {
+        text-align: center;
+    }
+
+    .mobile_margin_bottom{
+        padding-bottom: 10vh;
+    }
+    .bgc-carrot-orange .floating_laptop{
+        height: 384px;
+    }
+    .geofences-bg{
+        background-size: 50%;
+    }
+    .bgc-carrot-orange{
+        text-align: center;
+    }
+    .divider{
+        margin: 3vh auto !important;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+    }
+    .bloc-fill-screen{
+        height: 80vh !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navigator{
+        text-align: center;
+    }
+    .navigator .product_icon{
+        margin-left: 14%;
+    }
+
+    .mount-italy-hero-text-s{
+        font-size: 38px;
+    }
+
+    .diagrii_text{
+        padding: 18vh 2% 0;
+    }
+
+    .feature-list h3{
+        text-align: center !important;
+    }
+    .feature-list p{
+        margin: 2vh 10vw;
+        text-align: center;
+    }
+    .mg-lg, .statement-bloc-text  {
+        margin: 2vh 10vw;
+    }
+    .bgc-carrot-orange .floating_laptop{
+        display: none;
+    }
+    .geofences-bg{
+        background-image: none;
+    }
+    .divider {
+        margin: 16px 10px;
+    }
+    .bgc-carrot-orange .divider {
+        margin: 16px 10px;
+    }
+    .img-responsive{
+        max-height: 420px;
+    }
+    .diagrii_cover_img{
+        display: none;
+    }
+    .bloc-fill-screen{
+        height: 100vh !important;
+    }
+}
+
+.col-md-pull-6{
+    right: 0;
+}
+
+.btn-mail{
+    background-color: #2e6a4d;
+    border-color: #2e6a4d;
+    font-size: 22px;
+    padding: 8px 48px;
+    border-radius: 1px;
+}
+
+.btn-mail:HOVER{
+    background-color: #58A787;
+}
+
+/**
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  .bg-diagrii-header-cows {
+    height: 1024px;
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape){
+  .bg-diagrii-header-cows {
+    height: 768px;
+  }
+}
+
+/**
+* iPhone 5
+*/
+
+ @media all and (device-width: 640px) and (device-height: 1136px) and (orientation:portrait){
+   .bg-diagrii-header-cows {
+     height: 1136px;
+   }
+ }
+
+ /**
+ * iPhone 7
+ */
+ @media all and (device-width: 750px) and (device-height: 1334px) and (orientation:portrait){
+   .bg-diagrii-header-cows {
+        height: 1334px;
+   }
+ }
+
+ @media all and (device-width: 1242px) and (device-height: 2208px) and (orientation:portrait){
+   .bg-diagrii-header-cows {
+        height: 2208px;
+   }
+ }
+
+ @media all and (device-width: 1080px) and (device-height: 1920px) and (orientation:portrait){
+   .bg-diagrii-header-cows {
+        height: 1920px;
+   }
+ }
